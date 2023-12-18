@@ -7,31 +7,44 @@ nav{
     padding-inline:10% ;
     width: 100%;
     height: 60px;
-    background-color: rgb(196, 196, 196);
+    background-color: #161A30;
     display: flex;
     justify-content: space-between;
     align-items: center;
 
 }
 nav #logo-nav{
-    font-family: fantasy;
-    font-size: x-large;
-
+    /* background-image: url("/src/navbar_logo.png");
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    mix-blend-mode: multiply; */
+    font-family:Times;
+    font-size: xx-large;
+    color: #B6BBC4;
+    text-decoration: line-through ;
+    text-transform: uppercase;
 }
 nav ul {
     display: flex;
     justify-content: space-around;
 }
+
 nav ul li{
     list-style: none;
     padding-inline: 10%;
+    color: #B6BBC4;
     
 }
 nav #search-bar {
     
 }
 nav #search-bar input{
-    background-color: rgba(255, 255, 255, 0.123) ;
+    background-color: #31304D ;
+    text-decoration: aliceblue;
     border-radius: 25px;
     height:28px ;
     margin-inline:10px ;
@@ -41,6 +54,6 @@ nav #search-bar button{
     height:28px ;
     width: 28px ;
     border-radius: 25px;
-    background-color: rgba(255, 255, 255, 0.123) ;
+    background-color:#31304D ;
 
 }

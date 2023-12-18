@@ -5,7 +5,7 @@ function Navbar(){
     return(
             <div>
                 <nav>
-                    <div id="logo-nav">3allah </div>
+                    <div id="logo-nav">no logo</div>
                     <div>
                         <ul id="navlist">
                             <li>home</li>
